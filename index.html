@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuoTown Web Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .crush {
+            background: url(/image/boxxing\ background\ image.png) no-repeat center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section">
+        <div class="boxxing crush w-full min-h-screen relative">
+            <nav class="w-full min-h-[12vh] flex font-['Montserrat'] fixed">
+                <div class="menu-container absolute">
+                    <div class="menu w-[30%] min-h-screen absolute z-10 uppercase flex flex-col gap-8 pl-[50px] pt-[30px]"
+                        id="menu">
+                        <div class="text-[white]">
+                            <i id="chevron" class=" fas fa-chevron-left cursor-pointer"></i>
+                        </div>
+                        <div class="flex flex-col gap-5">
+                            <a href="#" class="text-[18px] text-white">Кухонные ножи TUOTOWN</a>
+                            <a href="#" class="text-[18px] text-white">Складные ножи TUOTOWN</a>
+                            <a href="#" class="text-[18px] text-white">Кухонные ножи QXF</a>
+                            <a href="#" class="text-[18px] text-white">Точильные камни</a>
+                            <a href="#" class="text-[18px] text-white">Наборы для BBQ</a>
+                            <a href="#" class="text-[18px] text-white">Кухонные принадлежности</a>
+                            <a href="#" class="text-[18px] text-white">Туристические товары</a>
+                        </div>
+                        <div class=" flex flex-col  gap-4">
+                            <a href="#" class="text-white text-[18px] opacity-[.6]">Новости</a>
+                            <a href="#" class="text-white text-[18px] opacity-[.6]">О компании</a>
+                            <a href="#" class="text-white text-[18px] opacity-[.6]">Контакт</a>
+                            <a href="#" class="text-white text-[18px] opacity-[.6]">Как проехать</a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bars-phone w-[30%] min-h-[12vh] flex justify-end items-center text-white text-[20px] gap-[30px]">
+                    <img src="./image/bar.png" class="cursor-pointer" alt="" id="bars">
+                    <i class="fas fa-location-dot"></i>
+                    <a href="Tel:8 981 120-11-17">8 981 120-11-17</a>
+                </div>
+                <div class="logo w-[50%] min-h-[12vh] flex justify-center items-center">
+                    <img src="./image/logo.png" alt="">
+                </div>
+                <div class="search w-[20%] flex items-center gap-8 text-white text-[20px]">
+                    <i class="fas fa-bag-shopping relative flex justify-end items-start" id=""><div class="number-bag left-2 top-0 w-[12px] flex justify-center items-center h-[12px] bg-[#FF0000] rounded-full text-[6px] absolute"><p id="bag-shop">0</p></div></i>
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-search"></i>
+                </div>
+
+            </nav>
+            <header class=" w-full pt-[170px] min-h-[60vh] flex flex-col justify-center gap-7 pl-[220px]">
+                <h1 class="text-white font-['Jura'] text-[45px] w-[60%]" id="heading">Исключительное качество без
+                    компромиссов</h1>
+                <p class="text-[20px] text-white font-['Montserrat'] w-[50%]" id="par">
+                    Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства
+                </p>
+                <button
+                    class="w-[165px] min-h-[55px] rounded-full border-2 border-[#C80000] text-white">ПОДРОБНЕЕ</button>
+            </header>
+            <main class="w-full min-h-[15vh] flex">
+                <div class="arrow w-[30%] min-h-[15vh] flex justify-center items-center">
+                    <div
+                        class="arrow-left cursor-pointer w-[50px] min-h-[50px] rounded-full border-[1.5px] flex justify-center items-center text-white text-[18px] border-white border-opacity-[.1]">
+                        <i class="fas fa-arrow-left opacity-[1] text-white"></i>
+                    </div>
+                </div>
+                <div class="numbers flex justify-center items-center w-[45%] text-white text-[20px] font-['Jura']">
+                    <div class="item w-[50px] flex justify-center items-center">
+                        <a href="#" class="href hrefOne" id="hrefOne">1</a>
+                    </div>
+                    <div class="item w-[50px] flex justify-center items-center">
+                        <a href="#" class="hrefTwo" id="hrefTwo">2</a>
+                    </div>
+                    <div class="item w-[50px] flex justify-center items-center">
+                        <a href="#" class="hrefThree" id="hrefThree">3</a>
+                    </div>
+                    <div class="item w-[50px] flex justify-center items-center">
+                        <a href="#" class="hrefFour" id="hrefFour">4</a>
+                    </div>
+                </div>
+                <div class="arrow w-[25%] min-h-[15vh] flex justify-center items-center">
+                    <div
+                        class="arrow-left cursor-pointer w-[50px] min-h-[50px] rounded-full border-[1.5px] flex justify-center items-center text-white text-[18px] border-white border-opacity-[.1]">
+                        <i class="fas fa-arrow-right opacity-[1] text-white"></i>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="knife w-full min-h-[30vh]  flex justify-center items-center gap-4">
+            <div
+                class="knife-box w-[14.6%] min-h-[20vh] text-white text-[18px] text-opacity-[.4] flex flex-col justify-center items-center gap-3">
+                <img src="./image/knife_image.png" alt="">
+                <a href="#" class="hover:text-[#FF0000] duration-[.3s]">Кухонные ножи</a>
+            </div>
+            <div
+                class="knife-box w-[14.6%] min-h-[20vh] text-white text-[18px] text-opacity-[.4] flex flex-col justify-center items-center gap-3">
+                <img src="./image/knife_imageOne.png" alt="">
+                <a href="#" class="hover:text-[#FF0000] duration-[.3s]">Складные ножи</a>
+            </div>
+            <div
+                class="knife-box w-[14.6%] min-h-[20vh] text-white text-[18px] text-opacity-[.4] flex flex-col justify-center items-center gap-3">
+                <img src="./image/knife_imageTwo.png" alt="">
+                <a href="#" class="hover:text-[#FF0000] duration-[.3s]">Точилки для ножей</a>
+            </div>
+            <div
+                class="knife-box w-[15.6%] min-h-[20vh] text-white text-[18px] text-opacity-[.4] flex flex-col justify-center items-center gap-3">
+                <img src="./image/knife_imageThree.png" alt="">
+                <a href="#" class="hover:text-[#FF0000] duration-[.3s]">Аксессуары для кухни</a>
+            </div>
+        </div>
+        <div class="market-container w-full min-h-screen flex flex-col gap-6">
+            <div class="market-container-top text-white flex justify-center gap-5">
+                <div class="market-full w-[520px]  rounded-[20px] min-h-[390px] flex items-end pb-[20px] pl-[20px]">
+                    Познакомьтесь с коллекцией ножей TUOTOWN
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[18vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 16.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[25vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 15.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="market-container-bottom text-white flex justify-center gap-5">
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[18vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 16.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[25vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 15.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="market-item mar group w-[250px] h-[390px] rounded-[20px] bg-[#272727] flex justify-end">
+                    <div class="text-[22px] flex items-center h-[13vh] gap-3 pr-7">
+                        <i class="fab fa-instagram"></i> INSTAGRAM
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[25vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 15.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="knife-shop w-full text-white min-h-[76vh] flex flex-col gap-10 py-[30px] justify-center border-b-[1.5px] border-b-white border-opacity-[.1]">
+            <div class="knife-nav flex justify-center items-center flex-col gap-5">
+                <h1 class="text-white font-['Jura'] text-[30px] text-center">Исключительное качество без
+                    компромиссов</h1>
+                <input type="email" name="email" class="w-[270px] min-h-[55px] rounded-lg bg-[#272727] pl-[20px]"
+                    placeholder="Ваш e-mail">
+            </div>
+            <div class="shop text-white flex justify-center items-center gap-5">
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[18vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 16.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[25vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 15.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[18vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 16.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[25vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 15.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div
+            class="knife-shop w-full text-white min-h-[76vh] flex flex-col gap-10 py-[30px] justify-center border-b-[1.5px] border-b-white border-opacity-[.1]">
+            <div class="knife-nav flex justify-center items-center gap-5">
+                <a href="#" class="opacity-[.5] hover:opacity-[1] duration-[.3s]">НОВИНКИ</a>
+                <a href="#" class="opacity-[.5] hover:opacity-[1] duration-[.3s]">ПОПУЛЯРНОЕ</a>
+            </div>
+            <div class="shop text-white flex justify-center items-center gap-5">
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[18vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 16.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[25vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 15.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[18vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 16.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+                <div class="maket-shop-box">
+                    <div
+                        class="market-item group w-[250px] min-h-[390px] rounded-[20px] bg-[#272727] flex flex-col justify-center items-center">
+                        <div class="italic w-full min-h-[25vh] pr-[20px] opacity-[.8] flex justify-end items-start"><i
+                                class="plus fas fa-plus relative text-[22px] group-hover:min-w-[40px] group-hover:h-[40px] group-hover:rounded-full duration-[.3s] cursor-pointer flex justify-center items-center group-hover:bg-[#C80000] gap-3 hover:w-[80px]"><i
+                                    class="bag fas fa-bag-shopping flex justify-center items-center" id="bag-shopping"></i></i></div>
+                        <img src="./image/image 15.png" alt="">
+                    </div>
+                    <div class="text-box flex flex-col gap-2 justify-center min-h-[12vh]">
+                        <span class="font-['Montserrat']">Складной нож SQ01-B</span>
+                        <span class="opacity-[.5]">850 р.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="tuotown-text-container w-full min-h-screen py-[20px] flex flex-col gap-10 border-b-[1.5px] border-b-white border-opacity-[.1]">
+            <div class="tuotown-text-container-top w-full min-h-[50vh] flex">
+                <div class="text-container-top-left w-[40%] flex justify-center items-center">
+                    <img src="./image/Rectangle 36.png" alt="">
+                </div>
+                <div class="text-container-top-right w-[60%] flex flex-col justify-center gap-7">
+                    <h1 class="text-white text-[35px] w-[80%] font-['Jura']">«Tuotown» – легендарные ножи, создающие
+                        шедевры</h1>
+                    <p class="text-white w-[80%] font-['Montserrat']">
+                        Компания «Tuotown» – эксклюзивный представитель профессиональных кухонных ножей, изготовленных
+                        лучшими мастерами
+                        Восточной Азии с применением передового европейского оборудования и современных материалов. Они
+                        отличаются идеальным
+                        балансом и фантастической остротой. Сочетают в себе вековые традиции и новейшие разработки.
+                        Также предлагаем широкий
+                        ассортимент сопутствующих товаров.
+                    </p>
+                </div>
+            </div>
+            <div class="tuotown-text-container-bottom flex justify-center items-center">
+                <div
+                    class="text-container-bottom-left w-[60%] text-white font-['Montserrat'] pl-[105px] text-[15px] gap-10 flex flex-col ">
+                    <p>Истинная красота ножа — совершённая функциональность и визуальная гармония. Этот предмет издревле
+                        сопутствовал человеку:
+                        от зари цивилизации до сегодняшних дней. На протяжении всей истории человечества он был верным
+                        помощником, незаменимым
+                        инструментом и грозным оружием. Предлагаем изделия Hi-end качества по доступным ценам настоящим
+                        ценителям японских
+                        ножей.</p>
+                    <p>
+                        Отличительной чертой нашего интернет-магазина являются уникальные торговые предложения,
+                        эксклюзивность продукции,
+                        неизменно высокое качество и выгодные цены. Осуществляем продажи элитных японских кухонных ножей
+                        для профессионалов
+                        и любителей. В обширной ассортиментной линейке представлены изделия для различных потребностей
+                        и любого бюджета —
+                        от столовых приборов до шеф-ножей.
+                    </p>
+                    <h1 class="text-white text-[30px] w-[100%] font-['Jura']">Ножи «Tuotown» – это главный инструмент
+                        поваров и секрет кулинарного мастерства</h1>
+                </div>
+                <div class="text-container-bottom-right w-[40%] flex justify-start pl-[30px] items-center"><img
+                        src="./image/Rectangle 41.png" alt=""></div>
+            </div>
+        </div>
+        <div class="knife-background-img w-full min-h-[70vh] flex flex-col gap-7 py-[20px]">
+            <h1 class="text-white text-[35px] w-[100%] font-['Jura'] pl-[105px]">Всё самое интересное о ножах</h1>
+            <div class="knife-body w-full flex justify-center items-center gap-5">
+                <div
+                    class="knife-item w-[330px] min-h-[450px] rounded-[20px] text-white text-[18px] flex flex-col justify-between  pt-[20px]">
+                    <h2 class="text-end pr-[25px]">4 августа 2021 19:24</h2>
+                    <div class="te pl-[25px] w-full min-h-[13h] py-[10px] duration-[.2s] hover:bg-[#C80000]">
+                        Традиционные виды японских кухонных ножей</div>
+                </div>
+                <div
+                    class="knife-item w-[330px] min-h-[450px] rounded-[20px] text-white text-[18px] flex flex-col justify-between  pt-[20px]">
+                    <h2 class="text-end pr-[25px]">4 августа 2021 19:24</h2>
+                    <div class="te pl-[25px] w-full min-h-[13h] py-[10px] duration-[.2s] hover:bg-[#C80000]"">Всемирная история режущих клинков — взгляд в прошлое</div>
+                </div>
+                <div
+                    class=" knife-item w-[330px] min-h-[450px] rounded-[20px] text-white text-[18px] flex flex-col
+                        justify-between pt-[20px]">
+                        <h2 class="text-end pr-[25px]">4 августа 2021 19:24</h2>
+                        <div class="te pl-[25px] w-full min-h-[13h] py-[10px] duration-[.2s] hover:bg-[#C80000]">Как
+                            ухаживать за японскими кухонными ножами?</div>
+                    </div>
+                </div>
+            </div>
+            <footer class="w-full min-h-[60vh] bg-[#272727] text-white flex justify-center items-center gap-6">
+                <div class="ul-box w-[26%]">
+                    <ul type="none" class="text-[13px] flex flex-col gap-6">
+                        <li class="flex gap-2 justify-center items-center">
+                            <img src="./image/logo.png" alt="">
+                            <h4 class="capitalize  text-white text-[16px]">легендарные ножи, создающие шедевры</h4>
+                        </li>
+                        <li>
+                            Компания «Tuotown» – эксклюзивный представитель профессиональных кухонных ножей,
+                            изготовленных лучшими мастерами
+                            Восточной Азии с применением передового европейского оборудования и современных материалов.
+                        </li>
+                        <li>
+                            Они отличаются идеальным балансом и фантастической остротой. Сочетают в себе вековые
+                            традиции и новейшие разработки.
+                            Также предлагаем широкий ассортимент сопутствующих товаров.
+                        </li>
+                    </ul>
+                </div>
+                <div class="ul-box w-[26%]">
+                    <ul type="none" class="flex flex-col gap-[45px]">
+                        <li class="flex flex-col gap-3">
+                            <span class="font-bold">Информация</span>
+                            <span class="text-[15px] opacity-[.5] flex  gap-4 ">
+                                <a href="#">Главная</a>
+                                <a href="#">Новости</a>
+                                <a href="#">О компании</a>
+                                <a href="#">Контакты</a>
+                            </span>
+                        </li>
+                        <li class="flex flex-col gap-3">
+                            <span class="font-bold">Каталог</span>
+                            <span class="text-[15px] opacity-[.5] flex  gap-4 flex-wrap">
+                                <a href="#">Кухонные ножи</a>
+                                <a href="#">Складные ножи</a>
+                                <a href="#">Точилки для ножей</a>
+                                <a href="#">Аксессуары</a>
+                            </span>
+                        </li>
+                        <li class="font-bold flex gap-6 items-center">
+                            Мы в соцсетях:
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-vk"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                        </li>
+                    </ul>
+                </div>
+            <div class="ul-box w-[26%]">
+                <ul type="none" class="flex flex-col gap-[20px]">
+                    <li class="flex flex-col gap-3">
+                        <span class="font-bold">Контактная информация</span>
+                        <span class="text-[15px] opacity-[.5] flex  gap-4 ">
+                            <a href="Tel:+7 (981) 120-11-17">+7 (981) 120-11-17</a>
+                            
+                          
+                         
+                        </span>
+                    </li>
+                    <li class="flex flex-col gap-3">
+                       
+                        <span class="text-[15px] opacity-[.5] flex  gap-4 flex-wrap">
+                        <a href="mailTo:tuotown@mail.ru">tuotown@mail.ru</a>
+                           
+                        </span>
+                    </li>
+                    <li class="font-bold flex gap-6 items-center">
+                        <span>08:00 — 18:00, ежедневно</span>
+                    </li>
+                    <li>
+                        <span>Россия, Москва, МКАД, 19-й километр,
+                            вл20с1, вход Ф, 22-68-70</span>
+                    </li>
+                    <li>
+                        <img src="./image/image 9.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            </footer>
+            <div class="footer-section w-full min-h-[11vh] bg-[#303030] text-[12px] text-white flex pl-[110px] items-center gap-7 text-opacity-[.5]">
+                TUOTOWN © 2021 Торговая марка TUOTOWN зарегистрирована. Все права защищены и принадлежат правообладателям.
+                <img src="./image/Mask Group (1).png" alt="">
+            </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

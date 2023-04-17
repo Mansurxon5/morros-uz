@@ -1,0 +1,146 @@
+section {
+    background: #303030;
+
+    // .boxxing.contain {
+    //     background: url(/image/bacground\ image\ One.png) no-repeat center;
+    //     background-size: cover;
+
+    // }
+
+    // .boxxing.One {
+    //     background: url(/image/boxxing\ background\ image.png) no-repeat center;
+    //     background-size: cover;
+    // }
+
+    .boxxing {
+
+        nav {
+            background: rgba(33, 33, 33, 0.8);
+            backdrop-filter: blur(5.5px);
+
+            .menu-container.const {
+                width: 100%;
+                min-height: 100vh;
+                background: rgba(0, 0, 0, 0.5);
+                transition: all .5s linear;
+            }
+            #bag-shop {
+                .number-bag {
+                    display: none;
+                }
+            }
+        }
+
+        .menu {
+            background: url(/image/Rectangle\ 47.png);
+            left: -1200px;
+            transition: all .5s linear;
+            max-width: 100%;
+        }
+
+        .menu.active {
+            left: 0;
+            // overflow: scroll;
+        }
+
+        header {
+            h1 {
+                line-height: 45px;
+            }
+        }
+
+        main {
+            .item {
+
+                a.href {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    .market-container {
+        .market-full {
+            background: url(/image/Rectangle\ 33.png);
+
+        }
+
+        .mar {
+            background-size: cover;
+            background: url(/image/Rectangle\ 58.png) no-repeat center;
+        }
+
+        .market-item {
+            &:hover {
+                .plus {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .plus {
+                &:hover {
+                    .bag {
+                        display: flex;
+                    }
+                }
+            }
+
+            .bag {
+                display: none;
+            }
+        }
+    }
+
+    .knife-shop {
+        .market-item {
+            &:hover {
+                .plus {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .plus {
+                &:hover {
+                    .bag {
+                        display: flex;
+                    }
+                }
+            }
+
+            .bag {
+                display: none;
+            }
+        }
+    }
+
+    .knife-background-img {
+        .knife-body {
+            .knife-item {
+                .te {
+                    border-radius:  0 0 20px 20px;
+                }
+            }
+            .knife-item:nth-child(1) {
+                background: url(/image/Rectangle\ 41.png);
+            }
+
+            .knife-item:nth-child(2) {
+                background: url(/image/Rectangle\ 40.png);
+            }
+
+            .knife-item:nth-child(3) {
+                background: url(/image/Rectangle\ 43.png);
+            }
+        }
+    }
+}
